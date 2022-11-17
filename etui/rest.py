@@ -1,7 +1,7 @@
 import requests
 import itertools
 
-from data import is_json
+from .data import is_json
 
 
 def get_nested_paging(paging_r: dict, next_param: list) -> str:

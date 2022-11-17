@@ -13,7 +13,7 @@ def is_json(s: str) -> bool:
     try:
         _ = json.loads(s)
         return True
-    except ValueError:
+    except (ValueError, TypeError):
         return False
 
 
