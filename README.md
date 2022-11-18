@@ -2,6 +2,12 @@
 Exquisite capsule fitted with useful helpers for every day coding.
 **Etui** provides simple, yet powerful, functions that are otherwise absence.
 
+## Installation
+```shell
+pip install etui
+```
+
+
 ## Examples
 ```python
 from etui import is_json
