@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import sys
 import os
+import sys
 
 # from distutils.core import setup
 from setuptools import setup
@@ -18,7 +18,7 @@ with open("LICENSE", "r") as f:
 
 setup(
     name="etui",
-    version="0.1.2",
+    version="0.1.3",
     description="Exquisite capsule fitted with useful helpers for every day coding",
     long_description=readme,
     long_description_content_type="text/markdown",
