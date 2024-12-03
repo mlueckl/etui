@@ -42,3 +42,9 @@ print('Accounts: {len(complete_data)}')
 
 > 'Accounts: 26023'
 ```
+
+## ENCRYPT / DECRYPT
+```python
+from etui import encrypt_decrypt as ende
+encrypted = ende.encrypt("Hello Encrypted World")
+decrypted = ende.decrypt(encrypted)
