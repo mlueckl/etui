@@ -18,7 +18,7 @@ with open("LICENSE", "r") as f:
 
 setup(
     name="etui",
-    version="0.1.3",
+    version="0.2.0",
     description="Exquisite capsule fitted with useful helpers for every day coding",
     long_description=readme,
     long_description_content_type="text/markdown",
@@ -28,5 +28,4 @@ setup(
     url="https://github.com/mlueckl/etui",
     packages=["etui"],
     package_dir={"etui": "etui"},
-    install_requires=["requests"],
 )
